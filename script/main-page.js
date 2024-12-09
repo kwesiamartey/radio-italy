@@ -1,8 +1,8 @@
- let stationData = []; // Store stations here to avoid multiple fetches
-    let selectedCountryPath = localStorage.getItem('selectedCountryPath') || "italyRadioList.json";
+    let stationData = []; // Store stations here to avoid multiple fetches
+    let selectedCountryPath = localStorage.getItem('selectedCountryPath') || "AustriaRadioList.json";
 
     //let selectedCountryPath = '';
-   const audio = new Audio();
+    const audio = new Audio();
     let hls;
     let currentPage = 1;
     const itemsPerPage = 48;
@@ -14,7 +14,7 @@
     const stationListContent = document.getElementById('stationListContent');
     const countryList = document.getElementById('countryList');
 
-    const selectedCountryPathName = localStorage.getItem('selectedCountryPathName') || "Italy";
+    const selectedCountryPathName = localStorage.getItem('selectedCountryPathName') || "Austria";
 
 
     async function loadStationPlaceholders() {
