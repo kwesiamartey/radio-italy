@@ -6,7 +6,7 @@
     const img = localStorage.getItem('img');
     const selectedCountryPath1 = localStorage.getItem('selectedCountryPaths');
     let stationData = []; // Store stations here to avoid multiple fetches
-    const selectedCountryPath = selectedCountryPath1 || "AustriaRadioList.json";
+    const selectedCountryPath = selectedCountryPath1 || "italyRadioList.json";
     //let selectedCountryPath = '';
     const audio = new Audio();
     let hls;
